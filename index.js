@@ -107,8 +107,8 @@ function Scene(canvas, time_step) {
     var num_segs = 6;
     var seg_length = height / num_segs;
     for (var i = 0; i < num_segs; ++i) {
-        var top = seg_length * i + 0.2 * seg_length;
-        var bottom = seg_length * i + 0.8 * seg_length;
+        var top = seg_length * i + 0.1 * seg_length;
+        var bottom = seg_length * i + 0.9 * seg_length;
         var corners = [
             new Vector2(width/2 - 8, top),
             new Vector2(width/2 - 8, bottom),
