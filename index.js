@@ -124,7 +124,7 @@ function Scene(canvas, time_step) {
 
     var max_v = 20;
     this.particles = [];
-    for (var i = 0; i < 20000; ++i) {
+    for (var i = 0; i < 10000; ++i) {
         this.particles.push(new Particle(
             Vector2.random(0, 0, width / 2 - 8, height),
             Vector2.random(-max_v, -max_v, max_v, max_v),
